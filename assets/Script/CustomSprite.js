@@ -64,11 +64,29 @@ let customSprite = cc.Class({
 
         disperse: {
             default: true,
-            displayName: "图集模式"
+            displayName: "图集模式",
+            notify: function () {
+                if (!this.disperse) this.onLoadTexture2DToSprite();
+            }
+        },
+
+        tooltip: {
+            default: "请将图集文件拖入Atlas框中",
+            readonly: true
         },
 
         _oldDefaultTexture2D: null,
         _oldSpriteFrame: null,
+    },
+
+    start () {
+        if (!this.disperse) {
+            this.onLoadTexture2DToSprite();
+        }
+        
+        // if (!CC_EDITOR && !this.disperse) {
+        //     this.onLoadTexture2DToSprite();
+        // }
     },
 
     _applyAtlas: CC_EDITOR && function (spriteFrame) {
@@ -86,7 +104,7 @@ let customSprite = cc.Class({
     },
 
     onLoadTexture2DToSprite () {
-        this.textureUrl = cc.url.raw(`resources/texture/${this.fileName}/${this.fileName+this.bgTexture}.png`);
+        this.textureUrl = cc.url.raw(`resources/texture/${this.fileName}/${this.fileName + this.bgTexture}.png`);
         if (this.bgTexture !== bgTextureEnum.Null) {
             cc.loader.load(this.textureUrl, (err, resTexture2D)=> {
                 this.spriteFrame = null;
@@ -151,6 +169,9 @@ if (CC_EDITOR) {
         return this.disperse;
     });
     cc.Class.Attr.setClassAttr(customSprite, 'disperseName', 'visible', function() {
+        return this.disperse;
+    });
+    cc.Class.Attr.setClassAttr(customSprite, 'tooltip', 'visible', function() {
         return this.disperse;
     });
 }
