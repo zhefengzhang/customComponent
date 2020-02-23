@@ -987,7 +987,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 120,
+      "width": 266.16,
       "height": 37.8
     },
     "_anchorPoint": {
@@ -1038,8 +1038,8 @@
       }
     ],
     "_useOriginalSize": true,
-    "_string": "字符串：",
-    "_N$string": "字符串：",
+    "_string": "字符串：HelloWorld",
+    "_N$string": "字符串：HelloWorld",
     "_fontSize": 30,
     "_lineHeight": 30,
     "_enableWrapText": true,
@@ -1081,7 +1081,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 90,
+      "width": 106.68,
       "height": 37.8
     },
     "_anchorPoint": {
@@ -1132,8 +1132,8 @@
       }
     ],
     "_useOriginalSize": true,
-    "_string": "枚举：",
-    "_N$string": "枚举：",
+    "_string": "枚举：0",
+    "_N$string": "枚举：0",
     "_fontSize": 30,
     "_lineHeight": 30,
     "_enableWrapText": true,
@@ -1175,7 +1175,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 288.4,
+      "width": 401.7,
       "height": 37.8
     },
     "_anchorPoint": {
@@ -1226,8 +1226,8 @@
       }
     ],
     "_useOriginalSize": true,
-    "_string": "footBall 模块的参数：",
-    "_N$string": "footBall 模块的参数：",
+    "_string": " 小明的年龄是：0，身高是：0",
+    "_N$string": " 小明的年龄是：0，身高是：0",
     "_fontSize": 30,
     "_lineHeight": 30,
     "_enableWrapText": true,
@@ -1269,7 +1269,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 236.7,
+      "width": 393.37,
       "height": 37.8
     },
     "_anchorPoint": {
@@ -1320,8 +1320,8 @@
       }
     ],
     "_useOriginalSize": true,
-    "_string": "golf 模块的参数：",
-    "_N$string": "golf 模块的参数：",
+    "_string": "小王的年龄是：0，身高是：0",
+    "_N$string": "小王的年龄是：0，身高是：0",
     "_fontSize": 30,
     "_lineHeight": 30,
     "_enableWrapText": true,
@@ -1363,7 +1363,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 150,
+      "width": 258.37,
       "height": 37.8
     },
     "_anchorPoint": {
@@ -1414,8 +1414,8 @@
       }
     ],
     "_useOriginalSize": true,
-    "_string": "二维坐标：",
-    "_N$string": "二维坐标：",
+    "_string": "坐标x：0，坐标：0",
+    "_N$string": "坐标x：0，坐标：0",
     "_fontSize": 30,
     "_lineHeight": 30,
     "_enableWrapText": true,
@@ -1457,7 +1457,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 150,
+      "width": 486.78,
       "height": 37.8
     },
     "_anchorPoint": {
@@ -1508,8 +1508,8 @@
       }
     ],
     "_useOriginalSize": true,
-    "_string": "颜色信息：",
-    "_N$string": "颜色信息：",
+    "_string": "颜色信息：r：0，g：0，b：0，a：0",
+    "_N$string": "颜色信息：r：0，g：0，b：0，a：0",
     "_fontSize": 30,
     "_lineHeight": 30,
     "_enableWrapText": true,
