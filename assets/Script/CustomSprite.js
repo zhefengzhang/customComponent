@@ -38,12 +38,10 @@ let customSprite = cc.Class({
                 this.onLoadTexture2DToSprite();
             }
         },
-
         fileName: {
             default: "bg",
             displayName: "散图文件夹"
         },
-
         disperseName: {
             default: "null",
             displayName: "搜索图片",
@@ -52,7 +50,6 @@ let customSprite = cc.Class({
                 this.onSpriteNameToAtlasEvent();
             }
         },
-
         disperseIndex: {
             default: 0,
             type: cc.Integer,
@@ -61,7 +58,6 @@ let customSprite = cc.Class({
                 this.onSpriteFrameIndexToAtlasEvent();
             }
         },
-
         disperse: {
             default: true,
             displayName: "图集模式",
@@ -69,7 +65,6 @@ let customSprite = cc.Class({
                 if (!this.disperse) this.onLoadTexture2DToSprite();
             }
         },
-
         tooltip: {
             default: "请将图集文件拖入Atlas框中",
             readonly: true
@@ -83,10 +78,6 @@ let customSprite = cc.Class({
         if (!this.disperse) {
             this.onLoadTexture2DToSprite();
         }
-        
-        // if (!CC_EDITOR && !this.disperse) {
-        //     this.onLoadTexture2DToSprite();
-        // }
     },
 
     _applyAtlas: CC_EDITOR && function (spriteFrame) {

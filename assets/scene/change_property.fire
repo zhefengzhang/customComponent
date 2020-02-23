@@ -180,7 +180,7 @@
       "array": [
         0,
         0,
-        584.2207691077798,
+        521.347293078232,
         0,
         0,
         0,
@@ -241,7 +241,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "head",
+    "_name": "cocoscreator",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -358,7 +358,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 240,
+      "width": 280,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -409,8 +409,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "我是一个美术",
-    "_N$string": "我是一个美术",
+    "_string": "我是一个程序员",
+    "_N$string": "我是一个程序员",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -576,8 +576,8 @@
     "nameLabel": {
       "__id__": 8
     },
-    "_N$peopleTypeEn": 2,
-    "_N$peopleTypeCn": 2,
+    "_N$peopleTypeEn": 1,
+    "_N$peopleTypeCn": 4,
     "_id": "fbtF6o/PpHkJxqocUO6+R0"
   }
 ]
